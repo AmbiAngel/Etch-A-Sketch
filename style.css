@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+.grid-container{
+    background-color: grey;
+    display: grid;
+    height: 960px;
+    width: 960px;
+}
+
+.grid16x{
+    grid-template-rows: repeat(16, 1fr);
+    grid-template-columns: repeat(16, 1fr);
+}
+
+.grid32x{
+    grid-template-rows: repeat(32, 1fr);
+    grid-template-columns: repeat(32, 1fr);
+}
+
+.grid64x{
+    grid-template-rows: repeat(64, 1fr);
+    grid-template-columns: repeat(64, 1fr);
+}
+
+.cell{
+border: black .1px solid;
+
+}
